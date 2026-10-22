@@ -1,0 +1,33 @@
+# Local credentials and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Training artifacts, imagery, and checkpoint files are not part of the preview.
+data/
+datasets/
+checkpoints/
+experiments/
+runs/
+logs/
+*.pth
+*.pt
+*.ckpt
+*.mat
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.zip
+*.tar
+*.gz
+
+# Local manuscript and submission materials
+submission/
+archive/
+manuscript.*
+Software_S1*
